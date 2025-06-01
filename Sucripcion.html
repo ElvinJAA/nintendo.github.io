@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nintendo - Suscripción / Preguntas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0; background: #fafafa; color: #222;
+        }
+        header {
+            background-color: #ef233c;
+            color: white;
+            padding: 20px 15px;
+            text-align: center;
+        }
+        nav ul {
+            margin: 0; padding: 0; list-style: none; display: flex; justify-content: center;
+            background-color: #d90429;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none; color: white; font-weight: 600; font-size: 1.1rem;
+            padding: 10px 0;
+            display: inline-block;
+        }
+        nav ul li a:hover {
+            color: #ffb703;
+        }
+        .section-container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 15px;
+        }
+        h2 {
+            color: #d90429;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #d90429;
+            padding-bottom: 5px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin: 10px 0 5px;
+        }
+        input[type="text"], input[type="email"], textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+        textarea {
+            resize: vertical;
+        }
+        input[type="submit"] {
+            background-color: #ef233c;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #d90429;
+        }
+        .publicidad {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #ffd60a;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.2rem;
+            color: #3a0ca3;
+        }
+        footer {
+            background-color: #1d3557;
+            color: white;
+            text-align: center;
+            padding: 15px 10px;
+            margin-top: 40px;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.5rem;
+            vertical-align: middle;
+        }
+        .social-icons a:hover {
+            color: #ffb703;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Nintendo</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Quienes Somos</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+            <li><a href="Sucripcion.html" aria-current="page">Suscripción / Preguntas</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="section-container">
+    <section id="suscripcion">
+        <h2>Suscripción / Preguntas</h2>
+        <form>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required />
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Tu email" required />
+
+            <label for="consulta">Tu consulta o pregunta:</label>
+            <textarea id="consulta" name="consulta" rows="5" placeholder="Escribe aquí tus preguntas o comentarios..." required></textarea>
+
+            <input type="submit" value="Enviar" />
+        </form>
+    </section>
+</div>
+
+<div class="publicidad">
+    ¡Suscríbete para recibir las últimas novedades y ofertas exclusivas de Nintendo!
+</div>
+
+<footer>
+    <div class="social-icons" aria-label="Redes sociales Nintendo">
+        <a href="https://www.facebook.com/Nintendo" target="_blank" aria-label="Facebook Nintendo" rel="noopener">🌐 Facebook</a>
+        <a href="https://twitter.com/Nintendo" target="_blank" aria-label="Twitter Nintendo" rel="noopener">🐦 Twitter</a>
+        <a href="https://www.instagram.com/Nintendo" target="_blank" aria-label="Instagram Nintendo" rel="noopener">📸 Instagram</a>
+        <a href="https://www.youtube.com/Nintendo" target="_blank" aria-label="YouTube Nintendo" rel="noopener">▶️ YouTube</a>
+    </div>
+    <p>© 2024 Nintendo. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
+
